@@ -70,3 +70,15 @@
 | `/purge bots [#amount] <channel>`      | Purge all the bot messages from a channel.        | `ManageMessages` | 
 | `/purge links [#amount] <channel>`      | Purge all the links from a channel.        | `ManageMessages` | 
 | `/purge user [member] [#amount] <channel>`      | Purge all the messages from a user in a channel.        | `ManageMessages` | 
+
+## Suggestion Commands:
+|	Command	| Description	| Permission | 
+--------------------|--------------|-----
+| `/suggestion create [suggestion]`      | Create a new suggestion        | `UseApplicationCommands` | 
+| `/suggestion view [suggestion ID]`      | Lookup a suggestion       | `UseApplicationCommands` | 
+
+## Ticket Commands:
+|	Command	| Description	| Permission | Extra | 
+--------------------|--------------|----- | ---- |
+| `/ticket add [member]`      | Add someone to the support ticket.        | `UseApplicationCommands` | You need to have **suggestions-role** to use this command!
+| `/ticket remove [member]`      | Remove someone from the support ticket.       | `UseApplicationCommands` | You need to have **suggestions-role** to use this command!
