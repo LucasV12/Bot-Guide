@@ -61,3 +61,12 @@
 | `/level-rank remove [role]`      | Remove a level rank.       | `Administrator` | 
 | `/level-ranks`      | Displays all the level ranks for the guild.       | `UseApplicationCommands` | 
 | `/rank [member]`      | Displays the level of a member of the guild.        | `UseApplicationCommands` | 
+
+## Moderation Commands:
+|	Command	| Description	| Permission | 
+--------------------|--------------|-----
+| `/purge all [#amount] <channel>`      | Purge all the messages from a channel.        | `ManageMessages` | 
+| `/purge attachments [#amount] <channel>`      | Purge all the attachments from a channel.        | `ManageMessages` | 
+| `/purge bots [#amount] <channel>`      | Purge all the bot messages from a channel.        | `ManageMessages` | 
+| `/purge links [#amount] <channel>`      | Purge all the links from a channel.        | `ManageMessages` | 
+| `/purge user [member] [#amount] <channel>`      | Purge all the messages from a user in a channel.        | `ManageMessages` | 
