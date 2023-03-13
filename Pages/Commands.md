@@ -6,8 +6,8 @@
 
 ## Admin Commands:
 
-|	Command	| description	| Permission | Example
-|---------------|--------------------|--------------|-----
+|	Command	| description	| Permission | 
+--------------------|--------------|-----
 | `/alerts add youtube [channel] [member]`      | Add a new youtube channel to the notifications list.        | `Administrator` | 
 | `/alerts remove youtube [channel]`      | Remove a youtube channel from the notifications list.        | `Administrator` | 
 | `/alerts add twitch [channel] [member]`      | Add a new twitch channel to the notifications list.        | `Administrator` | 
