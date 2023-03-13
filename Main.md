@@ -14,9 +14,9 @@
 - Auto Moderation System
 
 ##  Pages
-| Right columns |
-| ------------- |-------------|
+| Page | Option                |
+| -------------|:-------------:|
 | Info      | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Info.md)         |
-| Commands  | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md)          |
-| Guide     | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Guide.md)          |
+| Commands  | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md)     |
+| Guide     | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Guide.md)        |
 | FAQ       | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/FAQ.md)          |
