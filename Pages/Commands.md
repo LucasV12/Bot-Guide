@@ -28,6 +28,7 @@
 | `/snake`      | Play a game of snake in discord.        | `UseApplicationCommands` | `/snake` |
 | `/wordle`      | Play a game of wordle in discord.        | `UseApplicationCommands` | `/wordle` |
 
+
 ## General:
 |	Command	| description	| Permission | Example
 |---------------|--------------------|--------------|-----|
@@ -42,3 +43,21 @@
 | `/members [role]`      | Displays all the members with a certain role.        | `UseApplicationCommands` | `/members @Guest` |
 | `/ping`      | Displays the current websocket latency        | `UseApplicationCommands` | `/ping` |
 | `/uptime`      | Displays the bots uptime.        | `UseApplicationCommands` | `/uptime` |
+
+
+## Invite Commands:
+|	Command	| description	| Permission | Example
+|---------------|--------------------|--------------|-----|
+| `/invite-rank add [role] [#invites]`      | Add a new invite rank.        | `Administrator` | `/invite-rank add @Tier1 10` |
+| `/invite-rank remove [role]`      | Remove an invite rank.       | `Administrator` | `/invite-rank remove @Tier1` |
+| `/invite-ranks`      | Displays all the invite ranks for the guild.       | `UseApplicationCommands` | `/invite-ranks` |
+| `/invites [member]`      | Displays the invites of a member of the guild.        | `UseApplicationCommands` | `/invites @!L#9702` |
+
+
+## Level Commands:
+|	Command	| description	| Permission | Example
+|---------------|--------------------|--------------|-----|
+| `/level-rank add [role] [#level]`      | Add a new level rank.        | `Administrator` | `/level-rank add @Level10 10` |
+| `/level-rank remove [role]`      | Remove a level rank.       | `Administrator` | `/level-rank remove @Level10` |
+| `/level-ranks`      | Displays all the level ranks for the guild.       | `UseApplicationCommands` | `/level-ranks` |
+| `/rank [member]`      | Displays the level of a member of the guild.        | `UseApplicationCommands` | `/rank @!L#9702` |
