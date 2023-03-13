@@ -14,3 +14,31 @@
 | `/alerts remove twitch [channel]`      | Remove a twitch channel from the notifications list.        | `Administrator` | `/alerts remove twitch PewDiePie` |
 | `/alerts add medal [user-id] [member]`      | Add a new medal user to the notifications list.        | `Administrator` | `/alerts add medal 71441932 @PewDiePie#0001` |
 | `/alerts remove medal [user-id]`      | Remove a medal user from the notifications list.        | `Administrator` | `/alerts remove medal 71441932` |
+| `/alerts view youtube`      | View all the youtube channels on the notifications list.        | `Administrator` | `/alerts view youtube` |
+| `/alerts view twitch`      | View all the twitch channels on the notifications list.        | `Administrator` | `/alerts view youtube` |
+| `/alerts view medal`      | View all the medal users on the notifications list.        | `Administrator` | `/alerts view youtube` |
+
+
+
+
+## Fun Commands:
+|	Command	| description	| Permission | Example
+|---------------|--------------------|--------------|-----|
+| `/minesweeper`      | Play a game of minesweeper in discord.        | `UseApplicationCommands` | `/minesweeper` |
+| `/snake`      | Play a game of snake in discord.        | `UseApplicationCommands` | `/snake` |
+| `/wordle`      | Play a game of wordle in discord.        | `UseApplicationCommands` | `/wordle` |
+
+## General:
+|	Command	| description	| Permission | Example
+|---------------|--------------------|--------------|-----|
+| `/avatar [member]`      | Displays the avatar of a member.        | `UseApplicationCommands` | `/avatar @!L#9702` |
+| `/botinfo`      | Displays some information about the discord bot.        | `UseApplicationCommands` | `/botinfo` |
+| `/discrim [discrim]`      | Displays all the member with the same discriminator.        | `UseApplicationCommands` | `/discrim #0001` |
+| `/info guild`      | Displays information about the guild.        | `UseApplicationCommands` | `/info guild` |
+| `/info user [member]`      | Displays information about a member.        | `UseApplicationCommands` | `/info user @!L#9702` |
+| `/info role [role]`      | Displays information about a role.        | `UseApplicationCommands` | `/info role @Guest` |
+| `/info channel [channel]`      | Displays information about a channel.        | `UseApplicationCommands` | `/info channel #general` |
+| `/info emoji [emoji]`      | Displays information about an emoji.        | `UseApplicationCommands` | `/info emoji <:twitter:1083364994403541092>` |
+| `/members [role]`      | Displays all the members with a certain role.        | `UseApplicationCommands` | `/members @Guest` |
+| `/ping`      | Displays the current websocket latency        | `UseApplicationCommands` | `/ping` |
+| `/uptime`      | Displays the bots uptime.        | `UseApplicationCommands` | `/uptime` |
