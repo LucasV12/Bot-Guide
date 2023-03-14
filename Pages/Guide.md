@@ -7,6 +7,7 @@ To start of you can run the `/settings` command to view the current guild config
 
 - Channels
     >You can setup the all the channels for the discord bot by running the `/setup channels [setting] [channel]` command.
+    
     ![image](https://user-images.githubusercontent.com/41522688/225132881-6dfb416d-b8a9-4edd-92f5-73d4cd4c8d24.png)
 
 
@@ -29,6 +30,7 @@ To start of you can run the `/settings` command to view the current guild config
     
 - Roles
      >You can setup the all the roles for the discord bot by running the `/setup role [setting] [role]` command.
+    
     ![image](https://user-images.githubusercontent.com/41522688/225133056-62dc7d88-53bd-473a-a5d2-f8376c7e9e2c.png)
 
 
@@ -44,6 +46,7 @@ To start of you can run the `/settings` command to view the current guild config
     
 - Server Logs    
      >You can setup the all the logs u want to log for your server with the `/setup server-logs [log] [boolean]` command.
+    
     ![image](https://user-images.githubusercontent.com/41522688/225133357-f05a1325-0840-40c5-8af3-bdb5d5b5f1dc.png)
     
     
