@@ -4,6 +4,17 @@
 
 ><> = required, [] = optional
 
+| Category	| |
+--------------------|--------------|
+| Admin Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#admin-commands) |
+| Fun Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#fun-commands) |
+| General Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#general-commands) |
+| Invite Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#invite-commands) |
+| Level Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#level-commands) |
+| Moderation Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#moderation-commands) |
+| Suggestion Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#suggestion-commands) |
+| Ticket Commands | [Page](https://github.com/LucasV12/Bot-Guide/blob/main/Pages/Commands.md#ticket-commands) |
+
 ## Admin Commands:
 
 |	Command	| Description	| Permission | 
@@ -29,7 +40,7 @@
 | `/wordle`      | Play a game of wordle in discord.        | `UseApplicationCommands` | 
 
 
-## General:
+## General Commands:
 |	Command	| Description	| Permission | 
 --------------------|--------------|-----
 | `/avatar [member]`      | Displays the avatar of a member.        | `UseApplicationCommands` | 
