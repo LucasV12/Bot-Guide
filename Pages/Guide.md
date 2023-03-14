@@ -14,19 +14,19 @@ To start of you can run the `/settings` command to view the current guild config
 | Channel	| Option | |
 --------------------|--------------|--------------|
 | Welcome |`welcome-channel` | This the channel where all the join messages get send to. |
-    | Goodbye |`goodbye-channel` | This the channel where all the leave messages get send to. |
-    | Server Logs |`server-logs` | This the channel where all the servers logs are send to. |
-    | Suggestions |`suggestions-channel` | The is the channel where all the suggestions are send to. |
-    | Suggestions Logs |`suggestions-logs` | The is the channel where all the logs regarding suggestions are send to. |
-    | Tickets |`tickets-channel` | The is the channel where people can create a support ticket. |
-    | Ticket Logs |`ticket-logs` | The is the channel where all the logs regarding tickets are send to. |
-    | Ticket Logs |`ticket-logs` | The is the channel where all the logs regarding tickets are send to. |
-    | Tickets Category |`ticket-category` | The is the guild category where supports tickets are created. |
-    | Verification |`verification-channel` | The channel where new members can verify themself. |
-    | Verification Logs |`verification-logs` | The channel where all the logs regarding verification are send to. |
-    | Youtube Alerts |`youtube-channel` | The channel where all the youtube notifications get send to. |
-    | Twitch Alerts |`twitch-channel` | The channel where all the twitch notications get send to. |
-    | Medal Alerts |`medal-channel` | The channel where all the medal notifications get send to. |
+| Goodbye |`goodbye-channel` | This the channel where all the leave messages get send to. |
+| Server Logs |`server-logs` | This the channel where all the servers logs are send to. |
+| Suggestions |`suggestions-channel` | The is the channel where all the suggestions are send to. |
+| Suggestions Logs |`suggestions-logs` | The is the channel where all the logs regarding suggestions are send to. |
+| Tickets |`tickets-channel` | The is the channel where people can create a support ticket. |
+| Ticket Logs |`ticket-logs` | The is the channel where all the logs regarding tickets are send to. |
+| Ticket Logs |`ticket-logs` | The is the channel where all the logs regarding tickets are send to. |
+| Tickets Category |`ticket-category` | The is the guild category where supports tickets are created. |
+| Verification |`verification-channel` | The channel where new members can verify themself. |
+| Verification Logs |`verification-logs` | The channel where all the logs regarding verification are send to. |
+| Youtube Alerts |`youtube-channel` | The channel where all the youtube notifications get send to. |
+| Twitch Alerts |`twitch-channel` | The channel where all the twitch notications get send to. |
+| Medal Alerts |`medal-channel` | The channel where all the medal notifications get send to. |
     
 #### Roles
 >You can setup the all the roles for the discord bot by running the `/setup role [setting] [role]` command.
@@ -36,13 +36,13 @@ To start of you can run the `/settings` command to view the current guild config
 
  | Role	| Option | |
 --------------------|--------------|--------------|
-    | Join |`join-role` | This the role that new members recieve on joining the server. |
-    | Suggestions |`suggestions-role` | Members with this role can accept/deny/reset-vote suggestions in the server. |
-    | Tickets |`tickets-role` | Members with this role can add/remove members from a support ticket. |
-    | Verification |`verification-role` | This the role that members recieving on passing the verification.  |
-    | Youtube Alerts |`youtube-role` | This the role that gets pinged when someones uploads a youtube video.  |
-    | Twitch Alerts |`twitch-role` | This the role that gets pinged when someones goes live on twitch.  |
-    | Medal Alerts |`medal-role` | This the role that gets pinged when someones uploads a medal video. |
+| Join |`join-role` | This the role that new members recieve on joining the server. |
+| Suggestions |`suggestions-role` | Members with this role can accept/deny/reset-vote suggestions in the server. |
+| Tickets |`tickets-role` | Members with this role can add/remove members from a support ticket. |
+| Verification |`verification-role` | This the role that members recieving on passing the verification.  |
+| Youtube Alerts |`youtube-role` | This the role that gets pinged when someones uploads a youtube video.  |
+| Twitch Alerts |`twitch-role` | This the role that gets pinged when someones goes live on twitch.  |
+| Medal Alerts |`medal-role` | This the role that gets pinged when someones uploads a medal video. |
     
 #### Server Logs    
 >You can setup the all the logs u want to log for your server with the `/setup server-logs [log] [boolean]` command.
@@ -76,5 +76,10 @@ To start of you can run the `/settings` command to view the current guild config
 
 ![image](https://user-images.githubusercontent.com/41522688/225137352-2e981ce3-7c2a-485d-a606-ccf78bbe3544.png)
 
+| Panel	|  | Important |
+--------------------|--------------|--------------|
+| Tickets Panel | This is the panel where people can create tickets. | Make sure u have set the **Tickets Channel** before using this command. |
+| Verification Panel | This is the panel where people can verify themself | Make sure u have set the **Verification Channel** before using this command. |
 
-
+### Reset Setting
+>If you ever want to reset or disable a setting, you can use the command `/setup reset [setting]` command to do so.
